@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import { v4 as uuidv4 } from 'uuid';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence, Motion } from 'framer-motion';
 
 function App() {
   const [todo, setTodo] = useState('');
