@@ -140,6 +140,7 @@ function App() {
               value={dueDate}
               type="date"
               className="border-2 border-purple-500 rounded-lg p-3 w-full md:w-auto text-black"
+              placeholder='Select due date'
             />
             <button
               onClick={handleAdd}
